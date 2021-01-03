@@ -2,44 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
     padding: 20px 80px;
 
-    .directory {
-        border: 1px solid black;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-
-        .menu-item {
-            border: 1px solid black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex: 1 1 auto;
-            width: 30%;
-            height: 250px;
-            margin: .5rem;
-
-            .menu-item-content {
-                border: 1px solid black;
-                padding: 1rem;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-
-            &.large {
-                height: 380px;
-            }
-
-            .title {
-                font-size: 1rem;
-                margin-bottom: .5rem;
-            }
-
-        }
-    }
 }
 
