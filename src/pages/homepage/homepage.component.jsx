@@ -7,31 +7,31 @@ const Homepage = () => (
         <div className="homepage-menu">
             <div className="menu-item">
                 <div className="menu-item-content">
-                    <h4>HATS</h4>
+                    <h1 className="title">HATS</h1>
                     <p>SHOP NOW</p>
                 </div>
             </div>
             <div className="menu-item">
                 <div className="menu-item-content">
-                    <h4>JACKETS</h4>
+                    <h1 className="title">JACKETS</h1>
                     <p>SHOP NOW</p>
                 </div>
             </div>
             <div className="menu-item">
                 <div className="menu-item-content">
-                    <h4>SNEAKERS</h4>
+                    <h1 className="title">SNEAKERS</h1>
                     <p>SHOP NOW</p>
                 </div>
             </div>
             <div className="menu-item large">
                 <div className="menu-item-content">
-                    <h4>WOMENS</h4>
+                    <h1 className="title">WOMENS</h1>
                     <p>SHOP NOW</p>
                 </div>
             </div>
             <div className="menu-item large">
                 <div className="menu-item-content">
-                    <h4>MENS</h4>
+                    <h1 className="title">MENS</h1>
                     <p>SHOP NOW</p>
                 </div>
             </div>
