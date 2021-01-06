@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import './collection-preview.styles.scss'
+import CollectionItem from '../collection-item/collection-item.component'
 
 const CollectionPreview = ({title, items}) => {
     return (
@@ -8,15 +9,14 @@ const CollectionPreview = ({title, items}) => {
                 <h1 className='title'>{title}</h1>
                 <div className="collection-items">
                     {
-                        items.map((item, index)=> (
-                            <div className="collection-item">
-                                <img src={item.imageUrl} alt=""/>
-                                <div className="item-name">{item.name}</div>
-                            </div>
-                        ))
+                        items.filter((item, index) => index < 4)
+                            .map({id, ...otherItemProps}) (
+                                <CollectionItem key={id} {...otherItemProps}/>
+                            )
+        
                     }
+                    
                 </div>
-
             </div>
 
         </Fragment>
