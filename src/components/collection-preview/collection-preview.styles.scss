@@ -1,0 +1,32 @@
+.collection-preview {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        align-self: flex-start;
+        margin: 0 2rem;
+    }
+}
+
+.collection-items {
+    display: flex;
+
+    .collection-item {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 2rem;
+
+        .item-name {
+            align-self: flex-start;
+        }
+
+        img {
+            width: 300px;
+            height: 350px;
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 5px;
+            flex: 1 1 auto;
+        }
+    }
+}
