@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react'
 import './collection-item.styles.scss'
 
-const CollectionItem = ({items}) => (
+const CollectionItem = ({id, name, price, imageUrl}) => (
     <Fragment>
         <div className="collection-item">
-            <img src={item.imageUrl} alt=""/>
+            <img src={imageUrl} alt=""/>
             <div className="item-details">
-                <p>{item.name}</p>
-                <p>{item.price}</p>
+                <p>{name}</p>
+                <p>{price}</p>
             </div>
         </div>
     </Fragment>
